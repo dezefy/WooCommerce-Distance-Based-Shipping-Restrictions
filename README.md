@@ -23,6 +23,6 @@ To use the Distance-Based Shipping Restriction plugin, you will need to follow t
 
 Overall, the Distance-Based Shipping Restriction plugin is a simple yet powerful tool for managing shipping restrictions based on distance. With this plugin, you can ensure that you only accept orders from customers who are within a certain distance from your store location, which can help you save time and money on shipping costs.
 
-
+![Screenshot](https://i.imgur.com/4JzoX9H.jpg)
 
 ![Screenshot](https://i.imgur.com/yBogStE.jpg)
