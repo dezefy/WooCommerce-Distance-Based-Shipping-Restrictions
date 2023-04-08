@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) or die( 'No direct access allowed' );
 // Add settings page to store plugin settings
 add_action( 'admin_menu', 'dbsr_settings_page' );
 function dbsr_settings_page() {
-  add_options_page( 'Distance-Based Shipping Restrictions Settings', 'DBSR Settings', 'manage_options', 'dbsr-settings', 'dbsr_settings_page_callback' );
+  add_options_page( 'Distance-Based Shipping Restrictions Settings', 'WooCommerce Distance-Based Shipping Restrictions', 'manage_options', 'dbsr-settings', 'dbsr_settings_page_callback' );
 }
 
 function dbsr_settings_page_callback() {
