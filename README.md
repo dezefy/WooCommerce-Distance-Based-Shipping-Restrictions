@@ -26,3 +26,34 @@ Overall, the Distance-Based Shipping Restriction plugin is a simple yet powerful
 ![Screenshot](https://i.imgur.com/4JzoX9H.jpg)
 
 ![Screenshot](https://i.imgur.com/yBogStE.jpg)
+
+# How to get a Google Maps API key
+
+To get a Google Maps API key, follow these steps:
+
+1. Go to the Google Cloud Console at https://console.cloud.google.com/.
+2. If you don't already have a Google Cloud account, you will need to create one. Click the "Select a project" dropdown menu at the top of the screen and click "New Project". Follow the prompts to create a new project.
+3. Once you have created a project or selected an existing one, click on the navigation menu (☰) in the top-left corner of the screen and select "APIs & Services" > "Dashboard".
+4. Click the "+ ENABLE APIS AND SERVICES" button at the top of the screen.
+5. Search for "Maps JavaScript API" and click on it in the search results.
+6. Click the "ENABLE" button to enable the Maps JavaScript API for your project.
+7. Click the "Create Credentials" button at the top of the screen.
+8. Select "API key" from the dropdown menu.
+9. If prompted, enter a name for your API key.
+10. Click the "Create" button.
+11. Your API key will now be displayed on the screen. Copy it and save it somewhere safe.
+
+That's it! You now have a Google Maps API key that you can use to integrate the Distance-Based Shipping Restriction plugin with the Google Maps API. Remember to keep your API key secure and never share it with anyone.
+
+
+
+## WooCommerce distance-based shipping restriction plugin
+## How to restrict shipping based on distance in WooCommerce
+## Google Maps API integration for WooCommerce shipping restrictions
+## Limit WooCommerce orders based on distance from store location
+## Best WooCommerce shipping restriction plugin
+## How to block orders beyond a certain distance in WooCommerce
+## Custom error message for WooCommerce distance-based shipping restrictions
+## WooCommerce plugin for distance-based order blocking
+## WooCommerce shipping cost calculator based on distance
+## Distance-based shipping plugin for WooCommerce stores
