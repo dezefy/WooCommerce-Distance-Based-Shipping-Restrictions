@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Distance-Based Shipping Restrictions
-Plugin URI: https://example.com/
+Plugin URI: https://dezefy.com/products/wordpress-plugins/woocommerce-distance-based-shipping-restrictions
 Description: Blocks orders if the distance between the store location and the user's shipping location is more than a specified maximum distance.
 Version: 1.0
 Author: Dezefy
@@ -13,13 +13,13 @@ defined( 'ABSPATH' ) or die( 'No direct access allowed' );
 // Add settings page to store plugin settings
 add_action( 'admin_menu', 'dbsr_settings_page' );
 function dbsr_settings_page() {
-  add_options_page( 'Distance-Based Shipping Restrictions Settings', 'WooCommerce Distance-Based Shipping Restrictions', 'manage_options', 'dbsr-settings', 'dbsr_settings_page_callback' );
+  add_options_page( 'WooCommerce Distance-Based Shipping Restrictions', 'WooCommerce Distance-Based Shipping Restrictions', 'manage_options', 'dbsr-settings', 'dbsr_settings_page_callback' );
 }
 
 function dbsr_settings_page_callback() {
   ?>
   <div class="wrap">
-    <h2>Distance-Based Shipping Restrictions Settings</h2>
+    <h2>WooCommerce Distance-Based Shipping Restrictions Settings</h2>
     <form method="post" action="options.php">
       <?php settings_fields( 'dbsr-settings-group' ); ?>
       <?php do_settings_sections( 'dbsr-settings-group' ); ?>
